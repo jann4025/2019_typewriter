@@ -1,3 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .typewritten {
-    font-family: 'Special Elite', cursive;        
+    font-family: 'Special Elite', cursive;
+}
+
+.click-to-begin {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #34495e;
+    color: white;
+}
+
+.click-to-begin h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
 }
